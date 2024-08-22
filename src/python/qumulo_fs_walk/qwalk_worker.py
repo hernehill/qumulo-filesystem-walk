@@ -12,16 +12,16 @@ from typing import Callable, cast, List, Mapping, Optional, Sequence, Type, Unio
 
 from typing_extensions import Literal, TypedDict
 
-from qtasks import Task
-from qtasks.ApplyAcls import ApplyAcls
+from qumulo_fs_walk.qtasks import Task
+from qumulo_fs_walk.qtasks.ApplyAcls import ApplyAcls
 
 # Import all defined classes
-from qtasks.ChangeExtension import ChangeExtension
-from qtasks.CopyDirectory import CopyDirectory
-from qtasks.DataReductionTest import DataReductionTest
-from qtasks.ModeBitsChecker import ModeBitsChecker
-from qtasks.Search import Search
-from qtasks.SummarizeOwners import SummarizeOwners
+from qumulo_fs_walk.qtasks.ChangeExtension import ChangeExtension
+from qumulo_fs_walk.qtasks.CopyDirectory import CopyDirectory
+from qumulo_fs_walk.qtasks.DataReductionTest import DataReductionTest
+from qumulo_fs_walk.qtasks.ModeBitsChecker import ModeBitsChecker
+from qumulo_fs_walk.qtasks.Search import Search
+from qumulo_fs_walk.qtasks.SummarizeOwners import SummarizeOwners
 from qumulo.lib.request import RequestError
 from qumulo.rest_client import RestClient
 

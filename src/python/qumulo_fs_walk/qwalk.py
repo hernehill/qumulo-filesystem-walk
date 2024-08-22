@@ -4,7 +4,7 @@ import argparse
 import os
 import sys
 
-from qwalk_worker import QTASKS, QWalkWorker
+from qumulo_fs_walk.qwalk_worker import QTASKS, QWalkWorker
 
 
 def main() -> None:
