@@ -24,7 +24,7 @@ variants = [
 
 def commands():
     env.REZ_QUMULO_FS_WALK_ROOT = '{root}'
-    env.PYTHONPATH.append('{root}')
+    env.PYTHONPATH.append('{root}/src/python')
 
 
 build_command = 'rez python {root}/rez_build.py'
