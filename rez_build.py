@@ -6,8 +6,8 @@ import shutil
 
 
 # List of directories and files to be copied or symlinked (if building locally)
-DIRECTORY_LIST = ["src"]
-FILE_LIST = []
+DIRECTORY_LIST = ["qtasks"]
+FILE_LIST = ["qwalk.py", "qwalk_worker.py"]
 
 
 def get_all_dirs(source_dir):

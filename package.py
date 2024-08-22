@@ -1,6 +1,6 @@
 name = 'qumulo_fs_walk'
 
-version = '1.0.0.hh.1.0.1'
+version = '1.0.0.hh.1.0.2'
 
 authors = [
     'Qumulo',
@@ -24,7 +24,7 @@ variants = [
 
 def commands():
     env.REZ_QUMULO_FS_WALK_ROOT = '{root}'
-    env.PYTHONPATH.append('{root}/src/python')
+    # NOTE: Do not append the root to the PYTHONPATH
 
 
 build_command = 'rez python {root}/rez_build.py'
