@@ -85,4 +85,5 @@ class ApplyAcls:
 
     @staticmethod
     def work_done(_work_obj: Worker) -> None:
-        pass
+        if os.path.exists(_work_obj.LOG_FILE_NAME):
+            os.remove(_work_obj.LOG_FILE_NAME)

@@ -1,6 +1,6 @@
 name = 'qumulo_fs_walk'
 
-version = '1.0.0.hh.1.0.2'
+version = '1.0.0.hh.1.0.3'
 
 authors = [
     'Qumulo',
